@@ -1,5 +1,5 @@
 import java.util.*;
-// A Java program that takes unsloved sudoku as input and prints out solved sudoku out to the console..
+// A Java program that takes unsolved sudoku as input and prints out solved sudoku out to the console..
 public class Sudoku_solver {
     public static boolean solveSudoku(int[][] board) {
         for (int i = 0; i < 9; i++) {
@@ -24,6 +24,7 @@ public class Sudoku_solver {
         }
         return true;
     }
+    // A method that checks if it's valid to place a particular number in the desired cell or not. 
     public static boolean isValidToplace(int[][] board, int row, int col, int c) {
         for (int i = 0; i < 9; i++) {
           //checking in the coloumn  
@@ -38,6 +39,7 @@ public class Sudoku_solver {
         }
         return true;
     }
+    // A method that prints out solved sudoku on to the console
     public static void printSolvedSudoku(int[][] board){
         System.out.println("The solved sudoku puzzle is...");
         for(int i= 0; i< 9; i++){
