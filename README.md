@@ -12,7 +12,7 @@ Sudoku is a game played on a 9x9 grid where every single square is filled with a
    * Each of the smaller grids must not have repeating number.
    
    * For every value of N, you can only insert number in the range [1, N]. Suppose that the value of N is 9, then you must insert the numbers in the range [1, 9].
-# How it works
+# How our algorithm works
 This particular algorithm employs the use of backtracking, one of the more common methods to solve Sudoku puzzles. I've written a simple algorithm to give an idea of how the program works.
 
    * Start.
@@ -33,4 +33,4 @@ This particular algorithm employs the use of backtracking, one of the more commo
 # personal motivation
 Sudoku is a very favourite game puzzle of mine.After I took an intro to programming course in my first year of university, one of my first personal projects was a solution generator in C. I still remember the feelings of excitement and enjoyment that I felt. Now after learning Java I wanted to build a small project that will boost  my confidence to build many more in future.so I decided to build one on my favourite game puzzle.The algorithm design is like the puzzle to me.I always want to try to come up with things on my own before looking at how other people do things. Perhaps in doing so, I will come up with something new, and maybe even something that is better in some ways than existing approaches.
 # Tools used
-* Visual Studio Code
+* Visual Studio Code 
